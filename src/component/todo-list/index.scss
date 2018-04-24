@@ -1,0 +1,18 @@
+ul.list-todo{
+	border-top:2px solid  #89b6cc;
+	border-left:2px solid  #89b6cc;
+	border-right:2px solid  #89b6cc;
+	li{
+	    list-style: none;
+	    display: flex;
+	    /* position: relative; */
+	    justify-content: space-between;
+	    background-color: #bde5ea;
+	    border-bottom: 2px solid #89b6cc;
+	    padding: 0px 30px 3px;
+	    line-height: 38px;
+		.delbtn{
+			color:#e04a1a;
+		}
+	}
+}
